@@ -1,0 +1,1 @@
+export const logo="https://assets.website-files.com/62a83ee090ccdee139c347e5/62d857bb593d0d6f444528aa_full_logo-p-500.webp"
