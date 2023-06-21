@@ -5,6 +5,7 @@ import MakingBusiness from './components/MakingBusiness/MakingBusiness'
 import Team from './components/Team/Team'
 import Footer from './components/Footer/Footer'
 import LastSection from './components/LastSection/LastSection'
+import HorizontalMarquee from './components/HorizontalMarquee/HorizontalMarquee'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
    
     <HomeDefaultSection/>
     <FeaturedSection/>
+    <HorizontalMarquee/>
     <MakingBusiness />
     <Team/>
     <LastSection/>

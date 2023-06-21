@@ -26,7 +26,7 @@ const TeamCards = ({
           <h3 className='font-bold'>Products Used</h3>
         <div className="flex space-x-2 flex-wrap justify-center items-center p-2 bg-white rounded-2xl">
           {productUsed.map((product, index) => (
-            <span key={index} className="bg-gray-100  px-2 py-1 rounded-full text-xs mt-2">
+            <span key={index} className="bg-gray-700 text-white  px-2 py-1 rounded-full text-xs mt-2">
               {product}
             </span>
           ))}
