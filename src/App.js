@@ -18,14 +18,7 @@ const App = () => {
         <Route path="login" element={<LoginPage />} />
       </Routes>
     </div>
-    // <div>
-    // <BrowserRouter>
-    // <Routes>
-    //   <Route exact path='/' component={HomeDefaultSection}/>
-    //   <Route exact path='login' component={LoginPage}/>
-    // </Routes>
-    // </BrowserRouter>
-    // </div>
+
   )
 }
 
