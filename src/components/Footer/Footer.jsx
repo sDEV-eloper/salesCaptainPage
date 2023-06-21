@@ -12,19 +12,12 @@ const Footer = () => {
                 <li className='mx-4'>
                     <a href="/termandcondition">Term and Conditions</a>
                 </li>
-            </ul>
-            <ul>
                 <li className='mx-4'>
                     <a href="/privacy">Privacy</a>
                 </li>
-            </ul>
-            <ul>
-
                 <li className='mx-4'>
                     <a href="/refund">Refund</a>
                 </li>
-            </ul>
-            <ul>
                 <li className='mx-4'>
                     <a href="/ccpa">CCPA</a>
                 </li>

@@ -2,9 +2,18 @@ import React from 'react';
 import AnimateImages from '../AnimateImages/AnimateImages';
 import { images } from './constants';
 import Navbar from '../Navbar/Navbar';
+import { Route, Routes } from 'react-router-dom';
+import LoginPage from '../LoginPage/LoginPage';
+import FeaturedSection from '../FeaturedSection/FeaturedSection';
+import HorizontalMarquee from '../HorizontalMarquee/HorizontalMarquee';
+import MakingBusiness from '../MakingBusiness/MakingBusiness';
+import Team from '../Team/Team';
+import LastSection from '../LastSection/LastSection';
+import Footer from '../Footer/Footer';
 
 const HomeDefaultSection = () => {
   return (
+    <>
     <section className="bg-gray-200 relative overflow-hidden">
       <nav className="bg-white fixed top-0 left-0 w-full z-20 ">
         <Navbar/>
@@ -40,6 +49,13 @@ const HomeDefaultSection = () => {
         </div>
       </div>
     </section>
+    <FeaturedSection/>
+    <HorizontalMarquee/>
+    <MakingBusiness />
+    <Team/>
+    <LastSection/>
+    <Footer/>
+                  </>
   );
 };
 
